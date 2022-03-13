@@ -1,4 +1,4 @@
-const btn = document.querySelector('button'),
+const btn = document.querySelector('.send'),
     storona = document.querySelector('.input-storona');
 let div = document.querySelector('.value'),
     S = document.querySelector('.S'),

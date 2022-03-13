@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Калькулятор фигур</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <form>
+    <header>
+        <ul class="header__button">
+            <li class="button__active">Квадрат</li>
+            <li>Прямоугольник</li>
+            <li>Окружность</li>
+            <li>Треугольник</li>
+        </ul>
+    </header>
+    <form class="form__square">
         <input type="number" class="input-storona">
-        <button>Отправить</button><br>
-       Сторона: <div class="value"></div><br>
+        <button class="send">Отправить</button><br>
+        Сторона: <div class="value"></div><br>
         <span class="S">Площадь:</span><br>
         <span class="P">Периметр:</span>
     </form>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,27 @@
+header {
+    margin-bottom: 15px;
+    width: 100%;
+    min-height: 20px;
+}
+
+.header__button>li{
+    border: none;
+    background-color: white;
+    color: gray;
+    font-size: larger;
+    float: left;
+    padding-right: 5px;
+}
+
+/*.header__button li:hover {
+    color: black;
+}*/
+.button__active li{
+    color: black;
+    border: 2px solid black;
+    border-bottom: none;
+}
+
+.header__button {
+    list-style-type: none;
+}
